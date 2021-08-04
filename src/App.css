@@ -44,4 +44,55 @@ h1{
 .menu h1:hover{
   -webkit-animation-play-state: paused;
 }
+.off{
+  display: none;
+}
 
+
+.multiGame , .soloGame{
+  min-width: 300px;
+  width: 30%;
+  min-height: 450px;
+  background-color: #1D5876;
+  margin-top: 15vh;
+  color: #f15917;
+  font-size: 50px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.multiGame h5{
+  padding-top: 20px;
+  text-align: left;
+  transition: 0.5s;
+  margin-left: 2%;
+  cursor: pointer;
+}
+.soloGame h5{
+  padding-top: 20px;
+  text-align: left;
+  transition: 0.5s;
+  margin-left: 2%;
+  cursor: pointer;
+}
+.soloGame h5:hover{
+
+  color: white;
+  margin-left: 15%;
+  transition: 0.5s;
+}
+.multiGame h5:hover{
+
+  color: white;
+  margin-left: 15%;
+  transition: 0.5s;
+}
+.multiGame {
+  float: left;
+  margin-left: 15%;
+}
+.soloGame{
+  float: right;
+  margin-right: 15%;
+}
